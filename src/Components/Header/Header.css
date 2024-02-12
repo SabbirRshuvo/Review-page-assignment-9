@@ -7,7 +7,7 @@ a{
     position: relative;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: #773131;
+    color: rgb(58, 72, 189);
     font-size: 22px;
     letter-spacing: 0.8px;
 }
@@ -22,7 +22,7 @@ a::after{
     transition: 0.5s;
 }
 a:hover{
-    color: black;
+    color: orange;
 }
 a:hover::after{
     width: 100%;

@@ -1,0 +1,42 @@
+.photo-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.first{
+    font-size: 45px;
+    color: rgb(202, 80, 24);
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.second{
+    font-size: 45px;
+    color: rgb(26, 26, 170);
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.paragraph{
+    color: gray;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+.btn{
+    background-color: rgb(22, 190, 44);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 20%;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(167, 12, 89);
+}
+
+/* img section style  */
+.img-section img{
+    width: 400px;
+}

@@ -1,9 +1,11 @@
 import React from 'react';
-
+import CircleCharts from '../Recharts/CircleCharts';
 const Dashboard = () => {
+    
     return (
-        <div>
-            <h2>This is dashboard page</h2>
+        <div className='container'>
+            <CircleCharts></CircleCharts>
+            
         </div>
     );
 };

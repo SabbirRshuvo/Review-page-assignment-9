@@ -1,11 +1,16 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const Reviews = () => {
     return (
         <div>
-            <h2>This is review page</h2>
-            <i class="fa-solid fa-star"></i>
+            <div className="now">
+            <h4>Name : Alif</h4>
+            <p>he said that this is an array</p>
+            </div>
+            <div className="then">
+            <h4>Name : Alif</h4>
+            <p>he said that this is an array</p>
+            </div>
         </div>
     );
 };

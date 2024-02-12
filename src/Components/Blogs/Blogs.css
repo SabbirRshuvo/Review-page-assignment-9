@@ -1,0 +1,38 @@
+.first-question span{
+    font-size: 19px;
+    font-weight: 700;
+}
+.first-question p{
+    font-weight: 600;
+    color: brown;
+}
+.first-question{
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.second-question{
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.second-question span{
+    font-size: 19px;
+    font-weight: 700;
+}
+.second-question p{
+    font-weight: 600;
+    color: violet;
+}
+.third-question{
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.third-question span{
+    font-size: 19px;
+    font-weight: 700;
+}
+.third-question p{
+    font-weight: 600;
+    color: blue;
+}

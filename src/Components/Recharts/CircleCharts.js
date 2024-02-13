@@ -1,9 +1,14 @@
+import { Tooltip } from "bootstrap";
 import React from "react";
 import {
-    Bar,
-    BarChart,
+    Area,
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
   Line,
   LineChart,
+  AreaChart,
   Pie,
   PieChart,
   ResponsiveContainer,
@@ -60,13 +65,7 @@ const CircleCharts = () => {
           <XAxis dataKey={"month"}></XAxis>
           <YAxis></YAxis>
         </LineChart>
-      </div>
-      <div className="pie-charts">
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart width={150} height={40} data={data}>
-          <Bar dataKey="month" fill="#8884d8" />
-        </BarChart>
-      </ResponsiveContainer>
+        
       </div>
     </div>
   );
